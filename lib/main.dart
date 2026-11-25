@@ -55,9 +55,9 @@ class HomePage extends StatelessWidget {
               child: Row(
                 children: [
                   const CircleAvatar(
-                    radius: 42,
+                    radius: 40,
                     // backgroundColor: Colors.grey,
-                    backgroundImage: AssetImage('aa/IMG_1935.jpg'),
+                    backgroundImage: AssetImage('assets/IMG_1935.jpg'),
                   ),
                   const SizedBox(width: 20),
                   Expanded(
@@ -105,7 +105,7 @@ class HomePage extends StatelessWidget {
                     child: ElevatedButton(
                       onPressed: () {},
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.blue,
+                        backgroundColor: Colors.pink,
                         foregroundColor: Colors.white,
                         elevation: 0,
                         shape: RoundedRectangleBorder(
@@ -179,7 +179,7 @@ class HomePage extends StatelessWidget {
                   child: AspectRatio(
                     aspectRatio: 1,
                     child: Image.network(
-                      'https://www.google.com/imgres?q=%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%95%E0%B8%B9%E0%B8%99%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%A3%E0%B8%B1%E0%B8%81&imgurl=https%3A%2F%2Fi.pinimg.com%2F736x%2Fb2%2F81%2Ff8%2Fb281f8ff13b7d9017b4a25ec07f41100.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fnnnaruethai%2F%25E0%25B8%2581%25E0%25B8%25B2%25E0%25B8%25A3%25E0%25B8%2595%25E0%25B8%2599%25E0%25B8%259C%25E0%25B8%25AB%25E0%25B8%258D%25E0%25B8%2587%25E0%25B8%2599%25E0%25B8%25B2%25E0%25B8%25A3%25E0%25B8%2581%25E0%25B9%2586%2F&docid=eo4Y5qk8_eE3tM&tbnid=apkXytmf0Dp19M&vet=12ahUKEwjKu_7qnJ2YAxUqTGwGHb84CykQnPAOegQIIRAA..i&w=650&h=651&hcb=2&ved=2ahUKEwjKu_7qnJ2YAxUqTGwGHb84CykQnPAOegQIIRAA',
+                      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO6ZPiWHAWYehBJoHWyJIrqKtE95SApPcxrnRLMlf-dA&s=10',
                       fit: BoxFit.cover,
                     ),
                   ),
